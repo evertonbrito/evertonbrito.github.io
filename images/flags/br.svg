@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 56" preserveAspectRatio="none">
+  <defs>
+    <path id="star" d="M0-1 .224-.309 .951-.309 .363.118 .588.809 0 .382-.588.809-.363.118-.951-.309-.224-.309Z" fill="#fff"/>
+    <clipPath id="globe"><circle cx="40" cy="28" r="12"/></clipPath>
+  </defs>
+  <path fill="#333" d="M0 0h80v56H0z"/>
+  <path fill="#fff" d="m40 7 33 21-33 21L7 28z"/>
+  <circle cx="40" cy="28" r="12" fill="#111"/>
+  <g clip-path="url(#globe)">
+    <path d="M27 23c9-1 18 2 26 8" fill="none" stroke="#fff" stroke-width="2"/>
+    <g>
+      <use href="#star" x="43" y="21"/>
+      <use href="#star" x="31" y="28"/><use href="#star" x="33" y="31"/>
+      <use href="#star" x="35" y="29"/><use href="#star" x="37" y="32"/>
+      <use href="#star" x="40" y="29"/><use href="#star" x="40" y="32"/>
+      <use href="#star" x="38" y="34"/><use href="#star" x="42" y="34"/>
+      <use href="#star" x="40" y="37"/><use href="#star" x="45" y="30"/>
+      <use href="#star" x="47" y="32"/><use href="#star" x="45" y="35"/>
+      <use href="#star" x="34" y="34"/>
+      <g transform="translate(40 28) scale(.45) translate(-40 -28)">
+        <use href="#star" x="25" y="37"/><use href="#star" x="29" y="41"/>
+        <use href="#star" x="33" y="44"/><use href="#star" x="38" y="46"/>
+        <use href="#star" x="43" y="47"/><use href="#star" x="48" y="46"/>
+        <use href="#star" x="53" y="43"/><use href="#star" x="57" y="39"/>
+        <use href="#star" x="60" y="35"/><use href="#star" x="21" y="31"/>
+        <use href="#star" x="28" y="32"/><use href="#star" x="36" y="39"/>
+        <use href="#star" x="46" y="39"/>
+      </g>
+    </g>
+  </g>
+</svg>

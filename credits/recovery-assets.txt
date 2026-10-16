@@ -1,0 +1,30 @@
+ASTREIA RECOVERY SCENE — ASSET PROVENANCE
+
+Helicopter: Eurocopter EC135 P2, a member of the Airbus Helicopters family.
+Original 3D geometry and textures: Heiko Schulz / FlightGear.
+Source: https://github.com/HHS81/ec135
+Pinned revision: 6c502e2a8772c3e796706f59f78ee626071a75d6
+License: GNU GPL version 2 (see ec135-GPL-2.0.txt).
+Corresponding source and conversion script: ec135-source.zip (in this directory).
+Adaptations: selected medium skids and winch configuration, removed alternate
+radomes and equipment variants, converted AC3D with original UVs to GLB,
+painted offline rendering and eight main-rotor positions.
+This is a community model, not an official Airbus CAD asset.
+
+Recovery platform: original parametric mesh from the earlier authoring pipeline
+(recoverable in Git at 5f12c36:src/authoring/RecoveryAssets.js).
+Visual references: Blue Origin Jacklyn and SpaceX autonomous droneships.
+https://www.blueorigin.com/gallery/asset/6931c2f7ec50597c42d6943b
+https://www.spacex.com/vehicles/falcon-9/
+Original Astreia markings; no claim to reproduce certified flight or marine hardware.
+
+Production uses baked 2D WebP views. The EC135 GLB is in authoring/recovery/ec135.glb, for local authoring only.
+
+
+14 October 2026 painted derivative: recovery-painted/helicopter.webp is a
+gouache/ink style transfer of the existing EC135 sprite, generated with the
+built-in image_gen tool; main rotor animation remains a separate 2D layer.
+The original aircraft geometry source and GPL-2.0 license remain available here.
+recovery-painted/barge.webp is a matching painted derivative of the existing
+Astreia recovery-platform illustration. Exact generation prompts and source
+images are retained in authoring/illustrations/recovery/.

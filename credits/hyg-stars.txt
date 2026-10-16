@@ -1,0 +1,4 @@
+HYG v4.1 — David Nash / Astronomy Nexus. CC BY-SA 4.0.
+https://github.com/astronexus/HYG-Database/blob/main/hyg/CURRENT/hygdata_v41.csv
+https://creativecommons.org/licenses/by-sa/4.0/
+Derivative bright-star subset: magnitude <= 6.5, excluding Sun; RA and declination converted to radians, retaining visual magnitude and B-V color index. J2000 catalogue directions. This subset is distributed under CC BY-SA 4.0. Art-directed orientation, not a dated observing-site sky.

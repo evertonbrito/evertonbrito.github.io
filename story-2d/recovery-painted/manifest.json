@@ -1,0 +1,12 @@
+{
+  "helicopter": {
+    "width": 2400,
+    "height": 910,
+    "bytes": 573928
+  },
+  "barge": {
+    "width": 2400,
+    "height": 802,
+    "bytes": 650228
+  }
+}

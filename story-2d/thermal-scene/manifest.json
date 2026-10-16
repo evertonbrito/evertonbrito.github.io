@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "sensor": {
+    "wavelengthMin": 0.000003,
+    "wavelengthMax": 0.000005,
+    "intervals": 96,
+    "transmission": 0.96,
+    "reflectedK": 270,
+    "atmosphereK": 230,
+    "displayMinK": 350,
+    "displayMaxK": 1750,
+    "compression": 36
+  },
+  "palette": [
+    [
+      29,
+      12,
+      68
+    ],
+    [
+      75,
+      15,
+      118
+    ],
+    [
+      134,
+      22,
+      139
+    ],
+    [
+      211,
+      28,
+      104
+    ],
+    [
+      247,
+      61,
+      41
+    ],
+    [
+      255,
+      125,
+      23
+    ],
+    [
+      255,
+      215,
+      48
+    ],
+    [
+      255,
+      251,
+      189
+    ]
+  ],
+  "sources": {
+    "thor": "thor-illustrated/thor.webp",
+    "ground": "descent/atlantic.webp",
+    "clouds": "descent/cloud-bank.webp"
+  },
+  "qualification": "Thor preserves the assumed flow-aligned Planck/graybody field and fixed radiance window. Scenery, plasma and screen edges are artistic false-colour context. No measured temperatures, calibrated camera, CFD or flight telemetry.",
+  "reproduction": "node scripts/assets/bake-reentry-thermal.mjs"
+}

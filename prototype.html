@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <title>Astreia — Real-time prototype</title>
+    <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="fetch" href="/prototype/models/tessera.glb" crossorigin />
+    <script type="module" crossorigin src="/assets/prototype-Bl8fPfvY.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/assets/lenis-CYo8HTSz.js">
+    <link rel="modulepreload" crossorigin href="/assets/ThermalReentry-DXvBYzIV.js">
+    <link rel="stylesheet" crossorigin href="/assets/prototype-BGoOQNmp.css">
+    <link rel="stylesheet" crossorigin href="/assets/site-DxZbnut0.css">
+  </head>
+  <body class="prototype">
+    <header class="proto-nav">
+      <a href="/" aria-label="Astreia home"><img src="/brand/v3_icon_letter_white.svg" alt="" width="117" height="32" /></a>
+      <span class="proto-badge">Real-time prototype · Full mission</span>
+    </header>
+    <main>
+      <div class="proto-stage" aria-live="polite">
+        <canvas class="proto-canvas" aria-label="Astreia mission"></canvas>
+        <div class="proto-vignette" aria-hidden="true"></div>
+        <div class="story-copy">
+          <h1 id="story-title"></h1>
+          <p class="story-description"></p>
+        </div>
+        <div class="mission-hud" aria-hidden="true">
+          <span class="mission-hud-index">01 / 15</span>
+          <span class="mission-hud-label"></span>
+          <span class="mission-hud-track"><i></i></span>
+        </div>
+        <p class="proto-fallback" hidden>WebGL is unavailable. <a href="/">Open the mission</a>.</p>
+      </div>
+      <div class="proto-track" aria-hidden="true"></div>
+      <!-- After the mission: the company, in the FMI/ETH pattern. Copy from the
+           Vision, About, Tessera, Thor and OPERA pages; no invented figures. -->
+      <div class="proto-content">
+        <section class="pc-statement" aria-labelledby="pc-statement-title">
+          <p class="pc-kicker" data-reveal>The point</p>
+          <h2 id="pc-statement-title" data-reveal>Launch made orbit reachable.<br><span>Manufacturing makes it valuable.</span><br><span>Return makes that value usable.</span></h2>
+          <p class="pc-lede" data-reveal>Astreia designs and builds the infrastructure that turns orbit into a place instead of a passage. Up. Transform. Down. Commanded from one place.</p>
+        </section>
+
+        <section class="pc-systems" aria-labelledby="pc-systems-title">
+          <div class="pc-head">
+            <p class="pc-kicker" data-reveal>How we get there</p>
+            <h2 id="pc-systems-title" data-reveal>Three systems,<br>one operating model.</h2>
+          </div>
+          <div class="pc-cards">
+            <a class="pc-card" href="/tessera-1/" data-reveal>
+              <div class="pc-media"><img src="/story-2d/tessera-docking/tessera-frontal.webp" alt="Tessera-1 orbital platform" loading="lazy" decoding="async"></div>
+              <span class="pc-eyebrow">01 · Orbital platform</span>
+              <h3>Tessera-1</h3>
+              <p>The factory: a free-flying orbital manufacturing platform built from sealed hexagonal cells, each running one process.</p>
+              <span class="pc-link">Explore Tessera-1 <i aria-hidden="true">→</i></span>
+            </a>
+            <a class="pc-card" href="/thor-xr-1/" data-reveal>
+              <div class="pc-media pc-media--wide"><img src="/story-2d/thor-illustrated/normal-10.webp" alt="Thor XR-1 return vehicle" loading="lazy" decoding="async"></div>
+              <span class="pc-eyebrow">02 · Return vehicle</span>
+              <h3>Thor XR-1</h3>
+              <p>The delivery vehicle: takes what orbit produces, or any payload that needs to come down, and flies it to a point chosen before launch.</p>
+              <span class="pc-link">Explore Thor XR-1 <i aria-hidden="true">→</i></span>
+            </a>
+            <a class="pc-card" href="/opera/" data-reveal>
+              <div class="pc-media pc-media--screen"><img src="/products/opera/telemetry-1600.webp" alt="OPERA mission software, telemetry view with example data" loading="lazy" decoding="async"></div>
+              <span class="pc-eyebrow">03 · Mission software</span>
+              <h3>OPERA</h3>
+              <p>The command layer: mission software orchestrating planning, execution and autonomy, so the loop runs as one system instead of three.</p>
+              <span class="pc-link">Explore OPERA <i aria-hidden="true">→</i></span>
+            </a>
+          </div>
+        </section>
+
+        <section class="pc-loop" aria-labelledby="pc-loop-title">
+          <p class="pc-kicker" data-reveal>Logistics is a round trip</p>
+          <h2 id="pc-loop-title" data-reveal>Up. Transform. Down.</h2>
+          <ol class="pc-steps">
+            <li data-reveal><span>01 / Up</span><strong>Earth</strong><p>Raw material and vehicles leave on a scheduled rideshare.</p></li>
+            <li data-reveal><span>02 / Transform</span><strong>Orbit · Tessera-1</strong><p>Value is created in microgravity.</p></li>
+            <li data-reveal><span>03 / Down · Thor XR-1</span><strong>Chosen point</strong><p>Finished product comes down to a point chosen before launch.</p></li>
+          </ol>
+        </section>
+
+        <section class="pc-principles" aria-labelledby="pc-principles-title">
+          <div class="pc-head">
+            <p class="pc-kicker" data-reveal>How we build</p>
+            <h2 id="pc-principles-title" data-reveal>Fast isn't enough.<br>We go hypersonic.</h2>
+          </div>
+          <div class="pc-list" data-reveal>
+            <details><summary>Flight data over paperwork</summary><p>Analysis is where confidence goes to be overestimated. We fly to find out, and we design vehicles to fly often rather than perfectly.</p></details>
+            <details><summary>Constraints are the point</summary><p>We design to the rideshare envelope, standard interfaces, commodity launch. Orbital logistics should work like terrestrial logistics: scheduled, boring, cheap.</p></details>
+            <details><summary>Unproven risks don't get stacked</summary><p>Every flight exists to answer specific questions with flight data. We decouple risks, retire them in order, and refuse to bet a mission on two miracles at once.</p></details>
+            <details><summary>Failures get published</summary><p>We share test results as they happen, including the ones that don't go our way, because the failures are where the engineering actually lives.</p></details>
+            <details><summary>Built for missions that cannot fail</summary><p>Small teams, sovereign supply chains, and hardware accountable to the people who depend on it.</p></details>
+          </div>
+        </section>
+
+        <section class="pc-cta" aria-labelledby="pc-cta-title">
+          <p class="pc-kicker" data-reveal>Join the mission</p>
+          <h2 id="pc-cta-title" data-reveal>If it reads as an invitation,<br>come build the road up.</h2>
+          <div class="pc-actions" data-reveal>
+            <a class="pc-button" href="/contact/">Join the mission <i aria-hidden="true">↗</i></a>
+            <a class="pc-ghost" href="/vision/">Read our vision</a>
+          </div>
+        </section>
+
+        <footer class="pc-footer">
+          <img src="/brand/v3_icon_letter_white.svg" alt="Astreia" width="117" height="32">
+          <nav aria-label="Footer">
+            <a href="/tessera-1/">Tessera-1</a><a href="/thor-xr-1/">Thor XR-1</a><a href="/opera/">OPERA</a>
+            <a href="/about-us/">About us</a><a href="/vision/">Vision</a><a href="/updates/">Updates</a><a href="/career/">Career</a>
+          </nav>
+          <p><a href="/privacy-policy">Privacy Policy</a> · <a href="/terms-of-service">Terms of Service</a></p>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

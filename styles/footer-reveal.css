@@ -1,0 +1,13 @@
+/* Match astreia.space/js/footer-reveal.js and styles.css for the local React main.
+   The footer transform and clipping rules already live in production.css. */
+.motion-main {
+  z-index: 1;
+}
+
+body.is-footer-revealing .motion-main {
+  clip-path: inset(0 var(--footer-reveal-inset, 0px) 0 round 0 0 var(--footer-reveal-radius, 0px) var(--footer-reveal-radius, 0px));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.is-footer-revealing .motion-main { clip-path: none; }
+}

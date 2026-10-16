@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "source": "authoring/blender/thor-photoreal/thor.png",
+  "medium": "Photoreal Cycles render of the supplied Thor XR-1 CAD and livery (scripts/blender/blender-thor-photoreal.py)",
+  "assets": [
+    "thor.webp",
+    "thor-thermal.webp"
+  ],
+  "width": 1800,
+  "height": 468,
+  "thermal": {
+    "sensor": {
+      "wavelengthMin": 3e-06,
+      "wavelengthMax": 5e-06,
+      "intervals": 96,
+      "transmission": 0.96,
+      "reflectedK": 270,
+      "atmosphereK": 230,
+      "displayMinK": 350,
+      "displayMaxK": 1750,
+      "compression": 36
+    },
+    "qualification": "Assumed flow-aligned field and bounded artwork material detail. Fixed display window. No measured temperatures, CFD or flight telemetry."
+  },
+  "allTakes": {
+    "count": 37,
+    "width": 1600,
+    "height": 1600,
+    "normal": "normal-NN.webp",
+    "thermal": "thermal-NN.webp",
+    "open": "open-sprite.webp",
+    "hardware": "open.webp",
+    "method": "Planar registered exports from the single photoreal base render; open-hatch sprite still uses the hand-drawn source."
+  }
+}

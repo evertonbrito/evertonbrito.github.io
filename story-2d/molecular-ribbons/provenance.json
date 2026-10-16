@@ -1,0 +1,152 @@
+{
+  "sources": [
+    {
+      "id": "6VSB",
+      "url": "https://www.rcsb.org/structure/6VSB",
+      "sha256": "52912c05f77318dcbee8a9a8c7abdbab7d45e7dd43224d63b1ace565d960458c"
+    },
+    {
+      "id": "4INS",
+      "url": "https://www.rcsb.org/structure/4INS",
+      "sha256": "6262681a54c0184b988243fdcacd778e988818bcfe6fdec258ef22272d6d89f9"
+    },
+    {
+      "id": "1CRN",
+      "url": "https://www.rcsb.org/structure/1CRN",
+      "sha256": "42199a30a0701864a2a5cc76cd7f35cc544cd0e65fbcf63e03c166543249b811"
+    }
+  ],
+  "render": {
+    "blender": "5.1.2",
+    "samples": 512,
+    "structures": {
+      "6VSB": {
+        "A": {
+          "residues": 959,
+          "segments": 14,
+          "helical": 253,
+          "sheet": 270
+        },
+        "B": {
+          "residues": 973,
+          "segments": 14,
+          "helical": 254,
+          "sheet": 279
+        },
+        "C": {
+          "residues": 973,
+          "segments": 14,
+          "helical": 256,
+          "sheet": 274
+        }
+      },
+      "4INS": {
+        "A": {
+          "residues": 21,
+          "segments": 1,
+          "helical": 16,
+          "sheet": 0
+        },
+        "B": {
+          "residues": 30,
+          "segments": 1,
+          "helical": 12,
+          "sheet": 3
+        },
+        "C": {
+          "residues": 21,
+          "segments": 1,
+          "helical": 16,
+          "sheet": 0
+        },
+        "D": {
+          "residues": 30,
+          "segments": 1,
+          "helical": 12,
+          "sheet": 3
+        }
+      },
+      "1CRN": {
+        "A": {
+          "residues": 46,
+          "segments": 1,
+          "helical": 21,
+          "sheet": 8
+        }
+      }
+    }
+  },
+  "sourceBlend": "authoring/blender/protein-ribbons.blend",
+  "rbd": {
+    "chain": "A",
+    "residues": [
+      319,
+      541
+    ],
+    "registration": "Same orthographic camera and canvas as spike and isolated chains"
+  },
+  "representation": "Deposited CA backbones with HELIX/SHEET annotations, smooth cartoon ribbons and loops. Missing spans are not reconstructed.",
+  "qualification": "Gaussian envelopes, density and lattice are illustrative, not measured density maps or guaranteed crystal outcomes. 6VSB is a cryo-EM structure; the crystallography workflow is separate.",
+  "assets": [
+    {
+      "name": "spike",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 623028
+    },
+    {
+      "name": "chain-A",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 334432
+    },
+    {
+      "name": "chain-B",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 286090
+    },
+    {
+      "name": "chain-C",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 277348
+    },
+    {
+      "name": "rbd",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 66598
+    },
+    {
+      "name": "insulin",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 206574
+    },
+    {
+      "name": "insulin-surface",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 1061626
+    },
+    {
+      "name": "insulin-density",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 1052532
+    },
+    {
+      "name": "insulin-lattice",
+      "width": 640,
+      "height": 640,
+      "bytes": 25380
+    },
+    {
+      "name": "crambin",
+      "width": 2200,
+      "height": 2200,
+      "bytes": 147750
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source": "authoring/blender/bio-illustrations-2d.blend",
+  "generator": "scripts/blender/blender-bio-illustrations.py",
+  "pipeline": "Native planar Blender drawings; orthographic transparent renders. No live geometry.",
+  "qualification": "Schematic research illustrations. Crystal outcomes are protein-dependent; no drug efficacy or flight certification is implied.",
+  "assets": [
+    {
+      "name": "crystals-earth",
+      "width": 2000,
+      "height": 1300,
+      "bytes": 130652
+    },
+    {
+      "name": "crystals-microgravity",
+      "width": 2000,
+      "height": 1300,
+      "bytes": 123896
+    },
+    {
+      "name": "syringe",
+      "width": 2000,
+      "height": 1300,
+      "bytes": 71520
+    },
+    {
+      "name": "vial",
+      "width": 860,
+      "height": 1610,
+      "bytes": 74248
+    },
+    {
+      "name": "payload-case",
+      "width": 2000,
+      "height": 1508,
+      "bytes": 105568
+    }
+  ]
+}
